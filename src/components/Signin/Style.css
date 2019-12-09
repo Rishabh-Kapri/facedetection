@@ -1,0 +1,80 @@
+fieldset {
+	border-color: transparent;
+}
+
+.form-container {
+	margin: auto auto;
+	max-width: 30em;
+	border: solid rgba(0,0,0,0.1) 1px;
+	border-radius: 0.5rem;
+	box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
+
+.cursor {
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.text-color {
+	background-color: transparent;
+	color: white;
+}
+
+.sign-in-text {
+	margin: 0 auto;
+	font-size: 2em;
+	font-weight: 600;
+	padding: 20px;
+}
+
+.btn-submit {
+	margin: 1.5em;
+	border-radius: 5px;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+    transition: transform .25s ease-out
+}
+
+.btn-submit:hover {
+	color: black;
+	transform: scale(1.1);
+}
+
+.register {
+	max-width: 7em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	font-size: 1.1em;
+	padding: 0.5em;
+	opacity: 1;
+}
+
+.register:hover {
+	opacity: 0.5;
+	transition: opacity 0.15s ease-in;
+}
+
+div > label {
+	display: block;
+	font-size: 1.15em;
+	padding: 15px;
+	padding-bottom: 0px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+div > input {
+	margin: 0.5em;
+	padding: 0.5em;
+	border: solid white 1.5px;
+	background-color: transparent;
+}
+ div > input:hover {
+ 	background-color: #fff;
+ }
+
+ div > input:focus {
+ 	background-color: #fff;
+ }
+
