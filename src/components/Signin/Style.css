@@ -7,7 +7,7 @@ fieldset {
 	max-width: 30em;
 	border: solid rgba(0,0,0,0.1) 1px;
 	border-radius: 0.5rem;
-	box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+	box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cursor {
@@ -38,6 +38,10 @@ fieldset {
 .btn-submit:hover {
 	color: black;
 	transform: scale(1.1);
+}
+
+.btn-submit:focus {
+	color: black;
 }
 
 .register {
